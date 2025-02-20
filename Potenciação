@@ -1,0 +1,11 @@
+import math 
+# Solicita ao usuário que digite os valores
+num1 = float(input("Digite o primeiro valor: ")) 
+num2 = float(input("Digite a potenciacao: "))
+
+# Calcula a soma dos dois valores
+potenciacao = num1**num2  
+
+
+# Exibe o resultado da soma
+print(f"A potenciacao de {num1} é {potenciacao}") 
